@@ -155,7 +155,7 @@ for item in AUT_items:
             f"panel_AUT_{item_a}",
             vls.image(
                 f"img_{item_a}",
-                vls.convertImage(f"./images/cegla.png"),
+                f"https://bobbielin.github.io/VelesMagisterka/images/{item_a}.png",
                 visibleIf="{group}=2 or {group}=3",
             ),
             vls.multipleText(
