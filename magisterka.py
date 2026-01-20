@@ -3,7 +3,7 @@ import shutil
 import velesresearch as vls
 import anyascii
 
-defaultOptions = {"hideNumber": True, "isRequired": False}
+defaultOptions = {"hideNumber": True, "isRequired": True}
 
 
 wstęp = vls.page(
